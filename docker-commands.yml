@@ -1,0 +1,12 @@
+
+docker run
+docker prune
+docker start / stop
+docker create
+docker ps --all
+docker exec -it ID COMMAND
+docker exec -it ID COMMAND sh  //access shell
+docker run -it busybox sh
+ip a   ||  ifconfig -a 
+
+docker build .
