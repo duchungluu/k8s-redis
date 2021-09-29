@@ -10,3 +10,6 @@ docker run -it busybox sh
 ip a   ||  ifconfig -a 
 
 docker build .
+
+
+docker commit -c 'CMD "redis-server"' ID
