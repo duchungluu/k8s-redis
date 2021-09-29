@@ -13,3 +13,15 @@ docker build .
 
 
 docker commit -c 'CMD "redis-server"' ID
+
+#   -p   incoming request on local host : port inside container
+docker run -p 8080:8080
+
+
+docker-compose up --build #build and run with --build
+
+docker-compose up d #build in background
+
+docker-compose down
+
+60
