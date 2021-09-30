@@ -3,6 +3,7 @@ services:
   redis-server:
     image: 'redis'
   node-app:
+    restart: always
     build: .  #use the Dockerfile instead of iamge
     ports:
       - "4001:8081"
