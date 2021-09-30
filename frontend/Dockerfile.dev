@@ -5,6 +5,7 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install
 
+#Port mapping - setting reference volume
 COPY . .
 
 CMD ["npm","run","start"]

@@ -25,3 +25,7 @@ docker-compose up d #build in background
 docker-compose down
 
 npm run start/test/build
+
+
+# bookmark /app/nodemodules in the container ,, map pwd with app
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app ID
