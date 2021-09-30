@@ -24,4 +24,4 @@ docker-compose up d #build in background
 
 docker-compose down
 
-60
+npm run start/test/build
